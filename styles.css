@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
+body {
+    font-family: 'Rubik Doodle Shadow', sans-serif;
+    text-align: center;
+    background: url('https://files.oaiusercontent.com/file-LvoKqkcmcj1SmgeCnMuMvo?se=2025-01-30T14%3A03%3A48Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Df4f041f8-f4b4-4bf1-9a69-cafc87f3f978.webp&sig=X2ge4weoXMBPUb1XrL0pcaQm1Qps65QpXndUzcXIf18%3D') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.container {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 2px solid #61dafb;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+}
+
+button {
+    background-color: #21a1f1;
+    border: 2px solid #61dafb;
+    padding: 12px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0f87c3;
+    border-color: #fff700;
+    box-shadow: 0px 0px 10px #fff700;
+}
+
+#characterContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.character-card {
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 250px;
+    border: 3px solid #00ff00;
+    box-shadow: 0px 0px 15px #00ff00;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.character-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px #00ff00;
+}
+
+.character-card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #61dafb;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+}

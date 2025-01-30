@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rick and Morty API</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Rick and Morty API</h1>
+    </nav>
+
+    <main class="container">
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Buscar personaje...">
+            <button id="searchButton">Buscar</button>
+        </div>
+        <button id="fetchCharacter">Obtener Personaje Aleatorio</button>
+        <button id="fetchMultiple">Obtener 3 Personajes Aleatorios</button>
+        
+        <div id="characterContainer">
+            <!-- Aquí aparecerán los personajes -->
+        </div>
+    </main>
+
+    <footer>
+        <p>Desarrollado por Carletes</p>
+    </footer>
+</body>
+</html>
